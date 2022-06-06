@@ -19,10 +19,6 @@ function calculate() {
 
     if (buttonText === '=') {
         result.innerText = eval(output.innerText);
-        result.style.animation = "big 0.5s ease-in-out";
-        output.style.animation = "small.0.5s ease-in-out";
-        result.style.animationFillMode = "forwards";
-        output.style.animationFillMode = "forwards"
     }
 
     else {
